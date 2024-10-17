@@ -1,0 +1,101 @@
+body {
+  min-width: 640px;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  margin: 10px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.main {
+  margin-top: 200px;
+  text-align: center;
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-box {
+  width: 584px;
+  height: 46px;
+  border-radius: 25px;
+  border: 1px solid #dfe1e5;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.search-icon {
+  position: relative;
+  left: 40px;
+  color: #9aa0a6;
+  cursor: pointer;
+}
+
+.mic-icon {
+  position: relative;
+  right: 40px;
+  color: #9aa0a6;
+  cursor: pointer;
+}
+
+.button-area {
+  padding-top: 18px;
+}
+
+.button-style {
+  height: 36px;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 0 16px;
+  margin: 11px 4px;
+}
+
+.button-style:hover {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
+}
+
+.offer-item {
+  color: blue;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0px;
+  background-color: #f2f2f2;
+  width: 100%;
+}
+
+.nation {
+  padding: 15px 30px;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #dadce0;
+}
+
+.option {
+  padding: 15px 30px;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+}
